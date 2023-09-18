@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import { Routes, Route } from "react-router-dom";
 import Room from "./components/Room";
-import "./app.css"
+import "./App.css"
 
 function App() {
   return (
