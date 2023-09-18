@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+table {
+  border-collapse: collapse;
+  width: fit-content;
+}
+
+th,
+td {
+  border: 3px solid #20b2aa;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+  width: fit-content;
+  
+}
+
+.Room-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/8324.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.Room-code-block {
+  width: calc(100% - 350px);
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.Room-challenge-text {
+  font-size: 3vw;
+  font-family: "Kanit", sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+.Room-case-testing-div {
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  height: fit-content;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#Room-case-testing-title{
+  margin-bottom: 10px;
+}
+
+.Room-main-section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Room-back-btn{
+  color: #20b2aa;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 50px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.Room-back-btn:hover{
+  scale: 110%;
+}
+
+#Room-emoji{
+  width: 40vw;
+  position: absolute;
+  z-index: 5;
+  left: 30%;
+  cursor: pointer;
+}
+
+.display-me{
+  display: block;
+}
+.dont-display-me{
+  display: none;
+}
+
+.Room-role-title{
+  color: #20b2aa;
+  margin-left: 20px;
+}
