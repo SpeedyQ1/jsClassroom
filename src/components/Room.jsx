@@ -7,7 +7,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import "./Room.css";
 import "animate.css";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://jsclassroom.onrender.com");
 
 function Room() {
   const { id } = useParams();
